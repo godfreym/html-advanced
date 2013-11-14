@@ -93,6 +93,41 @@
 <section id="content">
     <!--lovely content -->
 </section>
+<br>
+ <h2>Field sets and legends</h2>
+
+<form action="somescript.php" >
+    <fieldset>
+        <legend>Name</legend>
+        <p>First name <input name="firstName"></p>
+        <p>Last name <input name="lastName"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <p>Address <textarea name="address"></textarea></p>
+        <p>Postal code <input name="postcode"></p>
+    </fieldset>
+    <!-- etc. -->
+<br>
+ <h2>option groups form</h2>
+ 
+<select name="country">
+    <optgroup label="Africa">
+        <option value="gam">Gambia</option>
+        <option value="mad">Madagascar</option>
+        <option value="nam">Namibia</option>
+    </optgroup>
+    <optgroup label="Europe">
+        <option value="fra">France</option>
+        <option value="rus">Russia</option>
+        <option value="uk">UK</option>
+    </optgroup>
+    <optgroup label="North America">
+        <option value="can">Canada</option>
+        <option value="mex">Mexico</option>
+        <option value="usa">USA</option>
+    </optgroup>
+</select>
 
 </body>	
 </html>
