@@ -135,5 +135,24 @@
 <label>email</label><input type="email" name="email_address"><br><br>
 <label>range</label><input type="range" name="temperature" min="15" max="25" step="0.5" value="18.5"><b><br>
 <label>color box</label><input name="color" type="color" value="#ff8800"><br><br>
+<h2>Placeholder text</h2>
+<label for="email_address">Email address</label>
+<input type="email" placeholder="you@somewhere.com" name="email_address" id="email_address"><br><br>
+<h2>Autofocus</h2>
+<input name="query" autofocus><br><br>
+<h2>Data lists</h2>
+
+<input name="country" list="country_name">
+<datalist id="country_name">
+    <option value="Afghanistan">
+    <option value="Albania">
+    <option value="Algeria">
+    <option value="Andorra">
+    <option value="Armenia">
+    <option value="Australia">
+    <option value="Austria">
+    <option value="Azerbaijan">
+    <!-- etc. -->
+</datalist>
 </body>	
 </html>
